@@ -1,11 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int T;
-    cin>>T;
-    while(T--){
-        int n;
+void solution(){
+	int n;
         cin >> n;
         if(n == 1){
             cout << 2 <<endl;
@@ -16,6 +13,12 @@ int main(){
             continue;
         }
         cout << n/3 + 1 << endl;
+}
+int main(){
+    int T;
+    cin>>T;
+    while(T--){
+		solution();
     }
 
     return 0;
